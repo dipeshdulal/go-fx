@@ -10,7 +10,7 @@ Learn about go lang dependency injection using `go-fx` DI framework.
 
 - [x] First Program written in `go-fx`
 - [x] Sample `Go-Gin` skeleton with dependency injection. [server](/server)
-- [ ] Build a sample application pseudo following clean architecture to check fx library.
+- [x] Build a sample application pseudo following clean architecture to check fx library. [clean](/clean)
 
 ##### Following [this](https://pmihaylov.com/shared-components-go-microservices/) tutorial.
 
