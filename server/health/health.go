@@ -8,7 +8,7 @@ import (
 
 func registerRoutes(handler *handler.Handler) {
 	handler.Gin.GET("/health", func(c *gin.Context) {
-		c.JSON(200, "Health OK")
+		c.JSON(200, gin.H{"message": "Health OK"})
 	})
 }
 
